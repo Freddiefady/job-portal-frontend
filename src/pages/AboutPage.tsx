@@ -33,18 +33,16 @@ export function AboutPage() {
 
         <div className="container relative mx-auto flex min-h-[min(56vh,480px)] w-full flex-col justify-end px-4 py-12 sm:px-8 sm:py-16 lg:py-20">
           <p className="text-xs font-semibold tracking-widest text-primary uppercase">
-            Graduation project
+            Empowering Inclusive Employment Through Technology
           </p>
           <h1
             id="about-hero-heading"
             className="mt-2 font-heading text-4xl font-bold tracking-tight text-foreground text-balance sm:text-5xl lg:text-[3.25rem] lg:leading-[1.08]"
           >
-            A job portal built as our capstone—by students, for learning
+            Opportix is a full-stack employment platform designed to connect companies with job seekers
           </h1>
           <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Opportix is a student graduation project: a full-stack hiring
-            experience that brings together employers, job seekers, profiles,
-            applications, and dashboards in one coherent product demo.
+            especially individuals with disabilities—through an accessible, intelligent, and inclusive hiring experience. Developed as our graduation project, the platform demonstrates how modern technologies can support equal employment opportunities while simplifying the recruitment process for both employers and candidates.
           </p>
         </div>
       </section>
@@ -63,21 +61,7 @@ export function AboutPage() {
           </h2>
           <div className="space-y-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
             <p>
-              Opportix was developed as a{" "}
-              <span className="font-medium text-foreground">
-                graduation project
-              </span>{" "}
-              to show how a real-world job marketplace could work end to end:
-              public job listings, authenticated flows for companies and
-              seekers, profile and CV handling, and structured application
-              data—not just mockups, but working screens tied to an API.
-            </p>
-            <p>
-              The goal is both academic and practical: demonstrate solid
-              software design, clear UX, and responsible handling of user
-              flows, while keeping scope realistic for a student timeline. If
-              you are reviewing this work for a course or committee, we hope
-              the structure of the app makes the intent easy to follow.
+              Opportix was built to address challenges faced by job seekers with disabilities when searching for suitable employment opportunities. By creating a platform that emphasizes accessibility and inclusivity, we aim to provide a more equitable job search experience. The project was developed as part of our graduation requirements, allowing us to apply our skills in software design, user experience, and responsible handling of user flows in a real-world context.
             </p>
           </div>
         </div>
@@ -107,10 +91,9 @@ export function AboutPage() {
             </CardHeader>
             <CardContent className="px-6 py-7 text-pretty text-sm leading-relaxed text-muted-foreground sm:px-8 sm:py-8 sm:text-base">
               <p>
-                To deliver a credible capstone: a hiring portal where listings,
-                applications, and role-based dashboards feel intentional—so
-                graders and peers can see requirements, architecture, and UI
-                working together, not a disconnected set of pages.
+               Our mission is to leverage technology to reduce employment barriers and promote workplace inclusion by qualifications, and needs while enabling companies to build more diverse and inclusive teams.
+
+Through Opportix, we aim to demonstrate how thoughtful software design can contribute to social impact while maintaining professional standards in security, usability, and scalability.
               </p>
             </CardContent>
           </Card>
@@ -131,10 +114,7 @@ export function AboutPage() {
             </CardHeader>
             <CardContent className="px-6 py-7 text-pretty text-sm leading-relaxed text-muted-foreground sm:px-8 sm:py-8 sm:text-base">
               <p>
-                That student projects can mirror industry patterns—auth,
-                separation of company vs. seeker experiences, and thoughtful
-                forms—so we graduate with portfolio pieces that explain not only
-                what we built, but why the flows make sense for real users.
+                We envision a future where employment platforms are designed with accessibility and inclusion as core principles rather than optional features. Opportix represents a step toward that vision by showcasing how technology, artificial intelligence, and user-centered design can work together to create fairer hiring experiences for everyone.
               </p>
             </CardContent>
           </Card>

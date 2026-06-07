@@ -281,7 +281,7 @@ export function CompanySignupForm({ className }: CompanySignupFormProps) {
           control={form.control}
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="company-signup-form-phone">Phone (optional)</FieldLabel>
+              <FieldLabel htmlFor="company-signup-form-phone">Phone (required)</FieldLabel>
               <Input
                 {...field}
                 id="company-signup-form-phone"
