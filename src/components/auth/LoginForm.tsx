@@ -138,23 +138,7 @@ export function LoginForm({ className }: LoginFormProps) {
 				<div className="absolute inset-0 flex items-center">
 					<Separator className="w-full" />
 				</div>
-				<div className="relative flex justify-center">
-					<span className="bg-white px-4 text-sm text-slate-400">or</span>
-				</div>
 			</div>
-
-			<div className="flex flex-col gap-3">
-				<Button type="button" variant="outline" className="h-12 w-full gap-3 rounded-lg border-slate-200 bg-white text-base font-medium text-slate-700 hover:bg-slate-50">
-					<GoogleIcon className="size-5" />
-					Login with Google
-				</Button>
-				<Button type="button" className="h-12 w-full gap-3 rounded-lg border-0 bg-[#3b5998] text-base font-medium text-white hover:bg-[#344e86]">
-					<FacebookIcon className="size-5 text-white" />
-					Login with Facebook
-				</Button>
-			</div>
-
-			<Separator className="my-2" />
 
 			<div className="flex flex-col items-center gap-3">
 				<p className="text-sm text-slate-500">Don&apos;t have an account?</p>

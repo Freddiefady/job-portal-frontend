@@ -96,7 +96,7 @@ export const companySignupSchema = z
   .object({
     companyName: z.string().min(2, { message: "Company name is required" }),
     email: z.string().min(1, { message: "Email is required" }).email(),
-    phone: z.string().optional(),
+    phone: phoneRules,
     password: passwordRules,
     confirmPassword: z.string().min(1, { message: "Confirm your password" }),
     industry: z.string().min(1, { message: "Select an industry" }),
